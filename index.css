@@ -3,13 +3,15 @@ div {
 }
 
 @font-face {
-    font-family: "Argent Pixel CF";
-    src: url("/fonts/ArgentPixelCF-Regular.eot");
+  font-family: "Averia Serif Libre";
+  src: url("/res/fonts/AveriaSerifLibre-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "monogramextended";
-    src: url("/fonts/monogram-extended.ttf") format("truetype");
+    font-family: "xe Dogma";
+    src: url("/res/fonts/xe_dogma") format("truetype");
 }
 
 /**************************************
@@ -36,6 +38,7 @@ body {
     color: #bbb6b6;
     counter-reset: sidenote-counter;
     font: 5rem "Averia Serif Libre";
+    font-weight: 300;
     /* font: 8rem "xe Dogma"; */
     /*
     font: 1rem/1.5rem "Argent Pixel CF";
