@@ -4,14 +4,14 @@ div {
 
 @font-face {
   font-family: "Averia Serif Libre";
-  src: url("/res/fonts/AveriaSerifLibre-Light.ttf") format("truetype");
+  src: url("./res/fonts/AveriaSerifLibre-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
     font-family: "xe Dogma";
-    src: url("/res/fonts/xe_dogma.ttf") format("truetype");
+    src: url("./res/fonts/xe_dogma.ttf") format("truetype");
 }
 
 /**************************************
