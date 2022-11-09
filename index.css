@@ -11,7 +11,7 @@ div {
 
 @font-face {
     font-family: "xe Dogma";
-    src: url("/res/fonts/xe_dogma") format("truetype");
+    src: url("/res/fonts/xe_dogma.ttf") format("truetype");
 }
 
 /**************************************
