@@ -33,12 +33,12 @@ html {
 }
 
 .ink {
-  font: 4rem "Averia Serif Libre";
+  font: 4.5rem "Averia Serif Libre";
   font-weight: 300;
 }
 
 .pixel {
-  font: 7rem "xe Dogma";
+  font: 7.5rem "xe Dogma";
 }
 
 
@@ -55,7 +55,7 @@ body {
     height: 100%;
     margin: 0 auto;
     max-width: 1440px;
-    padding-left: 12.5%;
+    padding-left: 9%;
     padding-right: 12.5%;
     padding-top: 5rem;
     width: 87.5%;
