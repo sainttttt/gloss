@@ -33,7 +33,7 @@ html {
 }
 
 .ink {
-  font: 4.8rem "Averia Serif Libre";
+  font: 4.6rem "Averia Serif Libre";
   font-weight: 300;
 }
 
@@ -47,8 +47,8 @@ body {
     background: #1c1c19;
     color: #bbb6b6;
     counter-reset: sidenote-counter;
-    font: 4.8rem "Averia Serif Libre";
-    font-weight: 300;
+    /* font: 4.6rem "Averia Serif Libre"; */
+    /* font-weight: 300; */
     /*
     font: 1rem/1.5rem "Argent Pixel CF";
     */
