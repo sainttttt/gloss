@@ -18,15 +18,14 @@ const changeFontSize = (amount = 5) => {
 
 const setFont = (fontName, sizeAdjust) => {
 
+  localStorage.setItem('fontName', fontName);
   const fontFam = window.getComputedStyle(document.querySelector('body'), null).getPropertyValue('font-family');
-  console.log('hehere');
 
   if (fontFam.replaceAll('"','')  == fontName) {
     console.log('here')
     return;
   }
   document.querySelector('body').style.fontFamily = fontName;
-  localStorage.setItem('fontName', fontName);
   if (sizeAdjust) {
     changeFontSize(sizeAdjust);
   }
