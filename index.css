@@ -27,9 +27,19 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+.controls {
+  padding-top: 0px;
+  text-align: center;
+
+}
+
+.spacer {
+  padding: 100px;
+}
+
 a {
   text-decoration: underline;
-  padding: 15px;
+  padding: 30px;
 }
 
 .versenum {
@@ -57,7 +67,7 @@ body {
     font: 1rem/1.5rem "Argent Pixel CF";
     */
     font-family: "Averia Serif Libre";
-    font-size: 70px;
+    font-size: 50px;
     height: 100%;
     margin: 0 auto;
     max-width: 1440px;

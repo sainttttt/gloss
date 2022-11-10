@@ -2,6 +2,13 @@ const setFontSize = (size) => {
     document.querySelector('body').style.fontSize = `${size}px`;
 };
 
+const reset = () => { 
+  localStorage.removeItem('fontName');
+  localStorage.removeItem('fontSize');
+  setFont('Averia Serif Libre', false);
+  setFontSize(50);
+};
+
 const changeFontSize = (amount = 5) => {
   const size = parseInt(window.getComputedStyle(document.querySelector('body'), null)
     .getPropertyValue('font-size').replace('px')) + amount;
@@ -24,7 +31,6 @@ const setFont = (fontName, sizeAdjust) => {
     changeFontSize(sizeAdjust);
   }
 }
-
 
 function r(f){/in/.test(document.readyState)?setTimeout('r('+f+')',9):f()}
 
