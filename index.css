@@ -27,20 +27,24 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+a {
+  text-decoration: underline;
+  padding: 15px;
+}
+
 .versenum {
     font-size: 50%;
     padding: 3px;
 }
 
 .ink {
-  font: 4.6rem "Averia Serif Libre";
+  font-family: "Averia Serif Libre";
   font-weight: 300;
 }
 
 .pixel {
-  font: 8rem "xe Dogma";
+  font-family: "xe Dogma";
 }
-
 
 body {
     -webkit-font-smoothing: antialiased;
@@ -52,6 +56,8 @@ body {
     /*
     font: 1rem/1.5rem "Argent Pixel CF";
     */
+    font-family: "Averia Serif Libre";
+    font-size: 50px;
     height: 100%;
     margin: 0 auto;
     max-width: 1440px;
